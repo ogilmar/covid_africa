@@ -1,2 +1,2 @@
 import pandas
-dados = 
+dados = read_csv() 
