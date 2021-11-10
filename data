@@ -1,2 +1,7 @@
-import pandas
-dados = read_csv() 
+#https://www.kaggle.com/anandhuh/covid-in-african-countries-latest-data
+
+import pandas as pd
+dados=pd.read_csv('/covid_africa.csv')
+dados.info()
+dados.head()
+dados.describe()
